@@ -1,0 +1,17 @@
+.card {
+    display: inline-flex;
+    margin-left: 3em;
+}
+
+.cardcontainer {
+    margin-left: 2em;
+}
+
+img {
+    width: auto;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}

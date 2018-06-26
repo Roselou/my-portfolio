@@ -1,0 +1,11 @@
+.me {
+    width: 20%;
+    height: 20%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 360px;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+}
