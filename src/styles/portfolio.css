@@ -1,17 +1,46 @@
-.card {
-    display: inline-flex;
-    margin-left: 3em;
+.portfolio {
+    height: 100em;
+    background-color:rgba(0, 0, 0, 0);
 }
 
-.cardcontainer {
-    margin-left: 2em;
-}
 
-img {
-    width: auto;
-    height: auto;
+
+.container {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-left: 26em;
+    margin-bottom: 10em;
+    margin-top: 3em;
 }
 
 h1 {
     font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+.links {
+    font-family: 'Montserrat';
+    color:#fff;;
+    float: right;
+    margin-right: 55em;
+}
+
+.particles {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1 !important;
+}
+
+.nav {
+    padding-bottom: 2em;
+}
+
+h4 {
+    color: #fff;
+    font-family: 'Montserrat';
+    margin-bottom: -2em;
 }

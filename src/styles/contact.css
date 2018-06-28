@@ -1,3 +1,10 @@
+.contact {
+    height: 100em;
+    margin-top: 6em;
+    background-color: rgba(0, 0, 0, 0);
+   
+}
+
 .resumeLink{
     text-decoration: none;
     color: #fff;
@@ -7,7 +14,7 @@
     margin-bottom: 2em;
 }
 
-.contactLogos1 {
+.contactLogos {
     margin: 0 auto;
     float: center;
 }
@@ -19,13 +26,28 @@
 }
 
 img {
-    margin-left: 5em;
+    margin-left: 6em;
     margin-top: 5em;
-    width: 30%;
-    height: 30%;
+    width: 15%;
+    height: 15%;
 }
 
-h1 {
+.contactTitle {
     text-align: center;
     font-family: 'Raleway', sans-serif;
+    color: #fff;
+    margin-left: 1em;
+}
+
+.particles {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1 !important;
+}
+
+.navbar {
+    margin-bottom: 1em;
 }
