@@ -34,7 +34,7 @@ class About extends Component {
                                 She completed a 12-week accelerated learning program in full-stack web development at General Assembly in the spring of 2018, and is comfortable with both front end and back end development, specializing in the MERN Stack, CSS, React and JavaScript. 
                                 Rose is currently freelancing as a Junior Front-End Web Developer at Mint Design Agency. </p>
                             <br />
-                            <p>Rose graduated with both a Master of Fine Arts and Master of Arts from the Dual Degree Masters program at San Francisco Art Institute in 2017. She also received a BA from New York University in 2013. With a background in digital media art, Rose's interests also include explring the possibilities made possible by 3D Modeling, Augmented Reality and Virtual Reality. </p>       
+                            <p>Rose graduated with both a Master of Fine Arts and Master of Arts from the Dual Degree Masters program at San Francisco Art Institute in 2017. She also received a BA from New York University in 2013. With a background in digital media art, Rose's interests also include experimenting with 3D Modeling, Augmented Reality and Virtual Reality projects. </p>       
                     </div>
                    
 
