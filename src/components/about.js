@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import me from '../imgs/me.jpg';
+import stella from '../imgs/stella.JPG';
 import '../styles/about.css';
 import js from '../imgs/js.svg';
 import html from '../imgs/html-5.svg';
@@ -13,6 +14,7 @@ import Particles from 'react-particles-js';
 import Navbar from '../components/navbar';
 
 
+
 class About extends Component {
     render(){ 
         return (
@@ -24,7 +26,7 @@ class About extends Component {
                     <div className="particles">
                     <Particles />
                     </div>
-                    <h1 className="aboutMe"> ROSE LOU </h1>
+                    <h1 className="aboutMe"> ROSE  <span> </span>  LOU </h1>
                     <div>
                         <img className="me" src={me} alt="profile"/>
                     </div>
@@ -49,7 +51,6 @@ class About extends Component {
                         <img src={python} alt = "python logo" />
                         <img src={adobe} alt="adobe creative cloud logo" />
                         <img src={node} alt="node icon"/>
-
                     </div>
              
                 </div> 

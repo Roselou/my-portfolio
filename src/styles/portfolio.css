@@ -1,12 +1,13 @@
 .portfolio {
-    height: 100em;
+    height: 100%;
+    width: 100%;
     background-color:rgba(0, 0, 0, 0);
+    width: 100%;
 }
 
 
 
 .container {
-    width: 100%;
     display: block;
     margin: 0 auto;
     margin-left: 26em;
@@ -22,8 +23,9 @@ h1 {
 .links {
     font-family: 'Montserrat';
     color:#fff;;
-    float: right;
-    margin-right: 55em;
+    display: block;
+    margin-left: 15em;
+    margin-bottom: -2em;
 }
 
 .particles {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-// import Navbar from './components/navbar';
 import './styles/about.css';
+import MediaQuery from 'react-responsive';
 
 
 
@@ -11,11 +11,13 @@ class App extends Component {
   render() {
     return (
       <div>
+        <MediaQuery query="min-device-width: 1224px">
           <div className="App">
-            {/* <Navbar className="navbar"/> */}
+            
         
             
           </div>
+          </MediaQuery>
       </div>
     );
   }

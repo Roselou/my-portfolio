@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 import '../styles/home.css';
-import softBlack from '../videos/softblack.mov';
 import Navbar from '../components/navbar';
-import {Link} from 'react-router-dom';
 import Particles from 'react-particles-js';
 
 
@@ -10,7 +8,7 @@ import Particles from 'react-particles-js';
 
 class Homepage extends Component {
     render(){
-        console.log("Hello! Drope me a line...")
+        console.log("Hej hej! Nǐ hǎo ma? ✨🐺✨")
         return(
             <div>
                 <div className='nav'>

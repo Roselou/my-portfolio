@@ -2,11 +2,11 @@ import React, {Component} from 'react';
 import '../styles/portfolio.css';
 import Particles from 'react-particles-js';
 import Navbar from '../components/navbar';
-import { Link } from 'react-router-dom';
 import av from '../videos/avbands.mov';
 import space from '../videos/space.mp4';
 import star from '../videos/stardust.mov';
 import light from '../videos/light.mov';
+
 
 
 class Portfolio extends Component {
@@ -74,7 +74,8 @@ class Portfolio extends Component {
                             
 
 
-                        </div>      
+                        </div>  
+                
             </div>
           
         )

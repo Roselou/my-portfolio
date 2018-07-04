@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Switch, Route, } from 'react-router-dom';
+import {Switch, Route,} from 'react-router-dom';
 import Homepage from './components/homepage';
 import About from './components/about';
 import Portfolio from './components/portfolio';
@@ -11,14 +11,14 @@ class Routes extends Component {
         return (
             <div>
                 <main>
-                    <Switch>
-                        
-                            <Route exact path='/' component={Homepage}/>
-                            <Route exact path='/about' component={About} />
-                            <Route exact path='/contact' component={Contact}/>
-                            <Route exact path='/portfolio' component={Portfolio}/>
-                        
-                    </Switch>
+                        <Switch>
+                            
+                                <Route exact path='/' component={Homepage}/>
+                                <Route exact path='/about' component={About} />
+                                <Route exact path='/contact' component={Contact}/>
+                                <Route exact path='/portfolio' component={Portfolio}/>
+                            
+                        </Switch>
                 </main>
             </div>
         )
